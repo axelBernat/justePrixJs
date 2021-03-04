@@ -6,7 +6,7 @@ let formulaire = document.querySelector('#formulaire');
 error.style.display = "none";
 
 // Etape 3 - Générer un nombre aléatoire
-let nombreAleatoire = Math.floor(Math.random()* 1001);
+let nombreAleatoire = Math.floor(Math.random()* 101);
 let coups = 0;
 let nombreChoisi;
 
@@ -27,6 +27,8 @@ function verifier(nombre) {
         instruction.textContent = "#" + coups + " ( " + nombre + " ) " + "Félicitations vous avez trouvé le juste prix ! ";
         instruction.className = "instruction fini";
         input.disabled = true;
+        let
+        
 
     }
 

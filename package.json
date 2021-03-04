@@ -3,7 +3,12 @@
   "version": "1.0.0",
   "description": "projet udemy",
   "main": "index.html",
-  "scripts": {},
+  "scripts": {
+    "deploy": "npm run build&&gh-pages -d build"
+  },
   "author": "axelr",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
 }
